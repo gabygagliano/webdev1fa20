@@ -1,0 +1,68 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-circle;
+  }
+  
+  .activator {
+    width: 100px;
+    height: 100px;
+    position: relative;
+    border: 4px dashed black;
+    margin: 20px;
+    border-radius: 50%;
+    
+  }
+  
+  .box {
+    width: 100px;
+    height: 100px;
+    background: gray;
+    position: absolute;
+    left: 0;
+    top: 0;
+    border-radius: 50%;
+    
+    animation-name: move-n-grow;
+    animation-duration: 6s;
+    animation-delay: 2s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-timing-function: cubic-bezier(.82,-0.56,.18,1.56);
+  }
+  
+  @keyframes move-n-grow {
+    from {
+      left: 10;
+      top: 10;
+    }
+    
+    to {
+      left: 400px;
+      top: 500px;
+    }
+    
+  }
+  
+  .box:hover {
+    
+    animation: all 2s ease,
+     background: 1s 2s ease; 
+    background: pink;
+    transform: rotateZ(47deg);
+    
+   
+  }
+    
+  
+  .activator:hover .box {
+    left: 400px;
+    /*border-radius: 50%; */
+    
+    
+  }
+  
+  .container p {
+    color: red;
+  }
