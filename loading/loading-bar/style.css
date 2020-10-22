@@ -1,0 +1,22 @@
+.box {
+    width: 0px;
+    height: 100px;
+    background: blue;
+    
+    animation-name: move-n-grow;
+    animation-duration: 2s; 
+    animation-delay: 1s;
+    animation-fill-mode: forwards;
+    animation-timing-function: ease-in-out;
+  }
+  
+  @keyframes move-n-grow {
+    0% {
+      width: 0px;
+    }
+    
+    100% {
+      width: 1000px;
+    }
+  }
+  
