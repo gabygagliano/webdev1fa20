@@ -1,4 +1,11 @@
 h1 {
     
-    font-variation-settings: 'wght' 375, 'GRAD' 88;
+   font-weight: 2000;
+   
+color:blue;
+    
 }
+
+.super-heavy {
+    font-weight: 1000;
+  }
