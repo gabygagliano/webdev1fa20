@@ -6,62 +6,19 @@
 html {
     font-family: 'tahoma', sans-serif; 
 }
-.wrapper {
-   /* background: lightgreen;*/
-    min-height: 100vh;
-    max-width: 900px;
-    margin: 0 auto;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-}
 
 header {
-   background: gray;
-    text-align: center;
+    background: gray;
+    padding: 2vmin;
 }
 
-main {
-   background: lightslategray;
+.splash-img {
+    width: 80vw;
+    margin: 0 auto;
+    display: block;
 }
 
-.gallery {
-display: flex;
-flex-wrap: wrap;
-justify-content: center;
-
-}
-
-.gallery__item{
-    background-size: cover;
-    width: 30vmin;
-    height: 30vmin;
-    margin: 2vmin;
-    box-shadow: 0px 10px 20px -5px black;
-    position: relative;
-
-    }
-
-    .gallery__text {
-        position: absolute;
-        top: 0;
-        left: 0;
-        right: 0;
-        bottom: 0;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        font-size: clamp(10px, 4vmin, 32px);
-        text-decoration: none;
-
-        color:rgba(100, 60, 75);
-        background: rgba(0,0,0,0);
-        transition: all .5s;
-        
-    }
-
-.gallery__item:hover .gallery__text {
-    color:rgba(100, 60, 75, 0);
-     background: rgba(0,0,0,0.5);
+.info {
+    display: flex;
 }
 
