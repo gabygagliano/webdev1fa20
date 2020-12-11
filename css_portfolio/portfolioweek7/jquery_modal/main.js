@@ -1,13 +1,7 @@
-$('#show-modal').click(function(){
-    $('#modal').show()
-    $('#box-hide').hide();
-    $('#box-toggle').toggle();
+$('#click-me').click(function(){
+    $('.modal').show();
   })
   
-  $('#hide').click(function(){
-    
-  })
-  
-  $('#toggle').click(function(){
-    
+  $('.modal__close').click(function(){
+    $('.modal').hide();
   })
