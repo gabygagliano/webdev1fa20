@@ -12,13 +12,28 @@ header {
     padding: 2vmin;
 }
 
-.splash-img {
-    width: 80vw;
-    margin: 0 auto;
+.portfolio {
     display: block;
+    text-align: center;
+    margin: 1em 0;
+}
+
+.splash-img {
+    width: 98vw;
+    display: block;
+    margin: 1em auto;
 }
 
 .info {
     display: flex;
 }
 
+.info-section {
+    margin: 0 1em;
+
+}
+
+.main-menu {
+    display: flex;
+    justify-content: space-evenly;
+}
